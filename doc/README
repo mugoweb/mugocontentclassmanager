@@ -1,0 +1,27 @@
+######################################
+Mugo Content Class Manager version 1.0
+######################################
+
+1) Description
+	The mugo content class manager is accessible from the admin siteaccess
+	under the tab name "Objects by content class". This extension can be
+	used to view the content objects that belong to each content class.
+
+2) Installation
+	Works as provided: copy the contents under the extension/ directory
+	of your eZ Publish installation and activate it for the admin siteaccess.
+	If you wish to use this extension as a user different than the admin user
+	simply grant the respective user permissions to the contentclassmanager
+	module.
+	
+3) Requirements
+	The extension was developed under:
+		- eZ Publish 2012.3
+		- PHP 5.3.10
+		- MySQL 5.5.2
+		- Apache 2.2.21
+	This extension may work on previous versions but it has not yet been 
+	properly tested for any previous installations.
+	
+4) Known Issues/Conflicts
+        Internationalization only works for the admin interface

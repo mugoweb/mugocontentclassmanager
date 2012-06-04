@@ -1,0 +1,36 @@
+.carret-arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #0B4E7A;
+        line-height:normal;
+        vertical-align:top;
+        display:inline-block;
+        zoom:1;
+        *display:inline;
+        _height: 20px;
+        margin-top:6px;
+}
+a div.carret-arrow-up:hover{
+    border-bottom: 5px solid #E24602;
+}
+
+.carret-arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #0B4E7A;
+        line-height:normal;
+        vertical-align:top;
+        display:inline-block;
+        zoom:1;
+        *display:inline;
+        _height: 20px;
+        margin-top:7px;
+}
+a div.carret-arrow-down:hover {
+    border-top: 5px solid #E24602;
+}
+.wide{ max-width:40%; min-width:130px;}
