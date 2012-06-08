@@ -1,5 +1,5 @@
 <?php
-$Module = array( 'name' => 'ContentClassManager' );
+$Module = array( 'name' => 'contentclassmanager' );
 
 $ViewList = array();
 $ViewList[''] = array( 'script' => 'main.php'
