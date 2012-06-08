@@ -1,4 +1,5 @@
 <?php
+
 $Module = array( 'name' => 'contentclassmanager' );
 
 $ViewList = array();
