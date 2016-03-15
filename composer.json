@@ -1,0 +1,21 @@
+{
+    "name": "informaticatrentina/mugocontentclassmanager",
+    "version": "?",
+    "description": "Informatica Trentina SpA - mugocontentclassmanager",
+    "type": "ezpublish-legacy-extension",
+    "authors": [
+        {
+            "name": "Informatica Trentina SpA",
+            "homepage": "http://www.infotn.it"
+        },
+        {
+            "name": "Mugo Web",
+            "homepage": "http://www.mugo.ca"
+        }
+    ],
+    "license": "GPL-2.0",
+    "minimum-stability": "stable",
+    "extra": {
+        "ezpublish-legacy-extension-name": "mugocontentclassmanager"
+    }
+}
