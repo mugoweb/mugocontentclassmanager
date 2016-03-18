@@ -1,13 +1,9 @@
 {
-    "name": "informaticatrentina/mugocontentclassmanager",
+    "name": "mugoweb/mugocontentclassmanager",
     "version": "1.0",
-    "description": "Informatica Trentina SpA - mugocontentclassmanager",
+    "description": "Mugo Web - Mugo Content Class Manager",
     "type": "ezpublish-legacy-extension",
     "authors": [
-        {
-            "name": "Informatica Trentina SpA",
-            "homepage": "http://www.infotn.it"
-        },
         {
             "name": "Mugo Web",
             "homepage": "http://www.mugo.ca"
