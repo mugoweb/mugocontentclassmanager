@@ -1,7 +1,7 @@
 {
     "name": "mugoweb/mugocontentclassmanager",
     "version": "1.0",
-    "description": "Mugo Web - Mugo Content Class Manager",
+    "description": "Extension for viewing eZ Publish content objects grouped by content class",
     "type": "ezpublish-legacy-extension",
     "authors": [
         {
@@ -13,5 +13,8 @@
     "minimum-stability": "stable",
     "extra": {
         "ezpublish-legacy-extension-name": "mugocontentclassmanager"
+    }
+    "require": {
+        "ezsystems/ezpublish-legacy-installer": "*"
     }
 }
