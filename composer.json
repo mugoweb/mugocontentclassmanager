@@ -13,7 +13,7 @@
     "minimum-stability": "stable",
     "extra": {
         "ezpublish-legacy-extension-name": "mugocontentclassmanager"
-    }
+    },
     "require": {
         "ezsystems/ezpublish-legacy-installer": "*"
     }
