@@ -18,16 +18,15 @@ Expected Variables:
     {set $ascending='true'}
 {/if}
 
-
-
-{def $nodes = fetch( 'content','tree', 
-                hash('parent_node_id',1,
-                    'sort_by',array( $sort_by, $sort_asc ),
-                    'offset',$offset,
-                    'limit',$items_per_page,
-                    'class_filter_type', 'include',
-                    'class_filter_array', array( $class_object.identifier ))
-                    )}
+{def $nodes = fetch( 'content', 'tree', hash(
+    'parent_node_id', 1,
+    'sort_by', array( $sort_by, $sort_asc ),
+    'offset', $offset,
+    'limit', $items_per_page,
+    'class_filter_type', 'include',
+    'class_filter_array', array( $class_object.identifier ),
+    'main_node_only', true()
+) )}
 <div class="box-header">
     <div class="box-ml">
         {if $class_object | is_null()}
